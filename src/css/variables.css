@@ -1,0 +1,25 @@
+:root {
+  /* Colors */
+  --color-primary: #171d36;
+  --color-secondary: #2a2a2a;
+  --color-light: rgb(255, 255, 255);
+  --font-color-light: #ffffff;
+  --font-color-dark: black;
+  --button-color: #ffffff;
+  --button-color-hover: #ffffff;
+  --button-color-active: #ffffff;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-small: 1rem;
+  --spacing-medium: 1.5rem;
+  --spacing-large: 2rem;
+  --spacing-xl: 3rem;
+
+  /* Font Size */
+  --font-size-xs: 0.75rem;
+  --font-size-small-base: 1rem;
+  --font-size-medium: 1.2rem;
+  --font-size-large: 1.5rem;
+  --font-size-xl: 2rem;
+}

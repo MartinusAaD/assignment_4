@@ -1,0 +1,106 @@
+/* Products Container Styles */
+.category-container {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  color: var(--font-color-light);
+  padding-top: var(--spacing-large);
+}
+
+.category__header {
+  flex-basis: 100%;
+}
+
+.products-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  color: var(--font-color-light);
+  gap: var(--spacing-medium);
+  padding: var(--spacing-small) 0;
+}
+
+.products-container--scroll {
+  display: flex;
+  align-items: center;
+  overflow-x: auto; /* Sidescroll grabbed from chat gpt */
+  flex-wrap: nowrap;
+  color: var(--font-color-light);
+  gap: var(--spacing-medium);
+  padding: var(--spacing-small) 0;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 250px;
+  height: 450px;
+  background-color: var(--color-light);
+  color: var(--font-color-dark);
+  padding: var(--spacing-small);
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  cursor: pointer;
+}
+
+.product__image {
+  transition: 0.1s;
+}
+
+.product-container:hover .product__image {
+  transform: scale(1.15);
+  transition: 0.1s;
+}
+
+.product__header {
+  font-size: var(--font-size-medium);
+}
+
+.product__info {
+  flex-basis: 25%;
+  overflow: hidden;
+  max-height: 80px;
+  text-overflow: ellipsis; /* Found on chatGPT */
+}
+
+.product__price-basket-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.product__price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  height: 50px;
+  background-color: var(--color-primary);
+  color: var(--font-color-light);
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.product__basket {
+  height: 50px;
+  width: 50px;
+  background-color: var(--color-secondary);
+}
+
+.product__basket:hover {
+  opacity: 0.9;
+}
+
+.product__basket .product__add-to-basket {
+  transition: 0.1s;
+}
+
+.product__basket:hover .product__add-to-basket {
+  transform: scale(1.2);
+  transition: 0.1s;
+}
+
+.product__basket:active .product__add-to-basket {
+  transform: scale(1);
+}
