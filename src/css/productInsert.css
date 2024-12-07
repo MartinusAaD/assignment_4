@@ -4,7 +4,6 @@
   flex-direction: column;
   width: 85%;
   color: var(--font-color-light);
-  padding-top: var(--spacing-large);
 }
 
 .category__header {

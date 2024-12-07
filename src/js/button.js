@@ -20,8 +20,8 @@ button.addEventListener("mousedown", () => {
 
 // Mouse Up
 button.addEventListener("mouseup", () => {
-  button.style.backgroundColor = "#3d82bd";
-  button.style.color = "white";
+  button.style.backgroundColor = "yellow";
+  button.style.color = "black";
 });
 
 // Mouse Enter
