@@ -2,14 +2,10 @@ header {
   width: 100%;
 }
 
-ul {
-  list-style: none;
-}
-
 .navbar {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-color: var(--color-primary);
   color: white;
@@ -18,6 +14,7 @@ ul {
 
 .navbar__header-link {
   font-size: 2rem;
+  
 }
 
 .navbar a {
@@ -25,17 +22,20 @@ ul {
   text-decoration: none;
 }
 
-.navbar__link {
-  flex-basis: 60%;
-}
-
 .navbar__list-links {
   display: flex;
   flex-basis: 40%;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: nowrap;
+  list-style: none;
 }
 
-.list-element__link:hover {
+.navbar__list-element {
+  text-wrap: nowrap;
+  padding: var(--spacing-xs) var(--spacing-small);
+}
+
+.navbar__list-element-link:hover {
   border-bottom: 2px solid white;
 }
