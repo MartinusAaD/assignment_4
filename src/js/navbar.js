@@ -49,4 +49,8 @@ for (let i = 0; i < navbarListElementsArray.length; i++) {
   // Apply Classes
   listElement.classList.add("navbar__list-element");
   navbarLink.classList.add("navbar__list-element-link");
+
+  if (i === 0) {
+    navbarLink.classList.add("navbar__list-element-link--active");
+  }
 }

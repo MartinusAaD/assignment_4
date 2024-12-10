@@ -1,24 +1,53 @@
-header {
-  margin-bottom: 1rem;
-}
-
-footer {
-  margin-top: 1rem;
-}
-
-.component-container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-  padding: var(--spacing-large);
-  background-color: grey;
-}
-
 /* Component 1 - Button */
 .button {
   width: 200px;
   height: 50px;
   color: #3d82bd;
+}
+
+/* Tabs */
+.component__titles-container {
+  width: 100%;
+  display: flex;
+}
+
+.component__title {
+  flex-basis: 10%;
+  padding: var(--spacing-small);
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  background-color: var(--color-secondary);
+  color: var(--color-light);
+}
+
+.component__title--active {
+  background-color: var(--color-primary);
+}
+
+.component__title:hover {
+  opacity: 0.95;
+}
+
+.components__content-container {
+  width: 100%;
+  background-color: grey;
+  flex-grow: 1;
+}
+
+.component-container {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: var(--spacing-large);
+  display: none;
+}
+
+.component-container--active {
+  display: flex;
+  flex-direction: column;
 }

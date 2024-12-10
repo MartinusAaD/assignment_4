@@ -1,7 +1,3 @@
-header {
-  width: 100%;
-}
-
 .navbar {
   width: 100%;
   display: flex;
@@ -14,7 +10,6 @@ header {
 
 .navbar__header-link {
   font-size: 2rem;
-  
 }
 
 .navbar a {
@@ -36,6 +31,14 @@ header {
   padding: var(--spacing-xs) var(--spacing-small);
 }
 
+.navbar__list-element-link {
+  padding: 0.1rem;
+}
+
 .navbar__list-element-link:hover {
+  border-bottom: 2px solid white;
+}
+
+.navbar__list-element-link--active {
   border-bottom: 2px solid white;
 }

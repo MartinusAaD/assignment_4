@@ -12,26 +12,41 @@
     <title>Assignment_4</title>
   </head>
   <body>
-    <header>
-      <!-- Component 3 -->
-      <section class="component__navbar component-container">
-        <h1>Navbar Component</h1>
-      </section>
-    </header>
     <main>
-      <!-- Component 1 -->
-      <section class="component__button component-container">
-        <h1>Button Component</h1>
-      </section>
-      <!-- Component 2 -->
-      <section class="component__productInsert component-container">
-        <h1>Product Inserting Component</h1>
-      </section>
+      <div class="components-container">
+        <div class="component__titles-container">
+          <button class="component__title component__title--active">
+            Button
+          </button>
+          <button class="component__title">Product Insert</button>
+          <button class="component__title">Navbar</button>
+          <button class="component__title">Footer</button>
+          <button class="component__title">5</button>
+          <button class="component__title">6</button>
+          <button class="component__title">7</button>
+          <button class="component__title">8</button>
+          <button class="component__title">9</button>
+          <button class="component__title">10</button>
+        </div>
+        <!-- Tabs description -->
+        <div class="components__content-container">
+          <!-- Component 1 - Button -->
+          <section
+            class="component__button component-container component-container--active"
+          ></section>
+          <!-- Component 2 - Product Insert-->
+          <section
+            class="component__productInsert component-container"
+          ></section>
+          <!-- Component 3 - Navbar -->
+          <section class="component__navbar component-container"></section>
+          <!-- Component 4 - Footer -->
+          <footer class="component__footer component-container"></footer>
+        </div>
+      </div>
     </main>
-    <!-- Component 4 -->
-    <footer class="component__footer component-container">
-      <h1>Footer Component</h1>
-    </footer>
+
+    <script src="./js/app.js"></script>
     <!-- Component 1  -->
     <script src="./js/button.js"></script>
     <!-- Component 2 -->
@@ -42,4 +57,3 @@
     <script src="./js/footer.js"></script>
   </body>
 </html>
-a
