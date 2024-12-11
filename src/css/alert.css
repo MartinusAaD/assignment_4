@@ -1,4 +1,4 @@
-
+/* Alert Button */
 .alert__button {
   padding: var(--spacing-small) var(--spacing-medium);
   background-color: red;

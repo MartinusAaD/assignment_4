@@ -8,6 +8,7 @@
   padding: var(--spacing-large) var(--spacing-xl);
 }
 
+/* Navbar Header */
 .navbar__header-link {
   font-size: 2rem;
 }
@@ -17,6 +18,7 @@
   text-decoration: none;
 }
 
+/* Navbar Links */
 .navbar__list-links {
   display: flex;
   flex-basis: 40%;

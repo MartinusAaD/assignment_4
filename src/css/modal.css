@@ -52,7 +52,7 @@
   color: var(--font-color-light);
   border: none;
   padding: var(--spacing-small) var(--spacing-medium);
-  border-radius: 0.25rem;
+  border-radius: 0.4rem;
   cursor: pointer;
 }
 

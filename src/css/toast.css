@@ -8,8 +8,14 @@
 
 /* Inspired from chatgpt and w3schools  snackbar / toast */
 .toast__button {
+  background-color: var(--color-primary);
+  color: var(--font-color-light);
+  border: none;
+  padding: var(--spacing-small) var(--spacing-medium);
+  border-radius: 0.4rem;
+  cursor: pointer;
   width: 200px;
-  height: 50px;
+  font-weight: bold;
 }
 
 .toast__container {
