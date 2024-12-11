@@ -1,9 +1,6 @@
 const tabTitleButtons = document.querySelectorAll(".component__title");
 const tabContents = document.querySelectorAll(".component-container");
 
-console.log(tabTitleButtons);
-console.log(tabContents);
-
 tabTitleButtons.forEach((tabButton, index) => {
   tabButton.addEventListener("click", () => {
     tabTitleButtons.forEach((button) =>

@@ -27,7 +27,7 @@ const footerListElementsArray = [
 ];
 
 // Document queries / Create elements
-const footerContainer = document.querySelector("footer");
+const footerContainer = document.querySelector(".component__footer");
 const footer = document.createElement("div");
 const footerLinksContainer = document.createElement("div");
 const copyright = document.createElement("p");
